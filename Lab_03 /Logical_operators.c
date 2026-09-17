@@ -6,7 +6,7 @@ int main ()
     printf("a > b  : %d (Greater than)\n", a > b);
     printf("a < b  : %d (Less than)\n", a < b);
     printf("a == b : %d (Equal to)\n", a == b);
-    printf("a != b : %d (Not equal to)\n\n", a != b);
+    printf("a != b : %d (Not equal to)\n", a != b);
     return 0 ;
 
 } 
