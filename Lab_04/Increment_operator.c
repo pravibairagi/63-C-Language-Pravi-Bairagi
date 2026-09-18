@@ -9,11 +9,7 @@ int main ()
 
     printf("Prefix Increment ( ++x ): %d\n\n", ++x ); 
 
-    printf("Prefix Decrement ( --x ): %d\n\n", --x );   
-
-    printf("Postfix Decrement ( x-- ): %d\n\n", x-- ); 
     
-
     return 0 ;
 
 } 
