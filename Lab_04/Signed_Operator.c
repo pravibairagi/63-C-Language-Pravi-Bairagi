@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+   signed int a ;
+   printf("Enter the of A : ", a );
+   scanf("%u", &a ) ;
+   printf("The singned value of A is : %u ", a);
+    return 0 ;
+}
