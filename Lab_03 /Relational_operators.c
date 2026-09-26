@@ -1,12 +1,17 @@
 #include<stdio.h>
 int main ()
 {
-    int a = 12 ;
-    int b = 23 ;
-    printf("a > b  : %d (Greater than)\n", a > b);
-    printf("a < b  : %d (Less than)\n", a < b);
-    printf("a == b : %d (Equal to)\n", a == b);
-    printf("a != b : %d (Not equal to)\n", a != b);
+    int a ;
+    printf ("Entre the value of A :",a) ;
+    scanf("%f", &a ) ;
+    int b ;
+    printf ("Entre the value of B :",b);
+    scanf("%f",&b );
+
+    printf("a > b  : %d\n", a > b);
+    printf("a < b  : %d\n", a < b);
+    printf("a == b : %d\n", a == b);
+    printf("a != b : %d\n", a != b);
     return 0 ;
 
 } 
